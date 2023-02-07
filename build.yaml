@@ -13,4 +13,4 @@
 #
 ---
 include:
-  - board: preonic_rev3
+  - board: breonic
