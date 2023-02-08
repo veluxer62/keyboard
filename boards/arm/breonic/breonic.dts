@@ -112,7 +112,6 @@
     status = "okay";
 };
 
-
 &usbd {
     status = "okay";
     cdc_acm_uart0: cdc_acm_uart0 {
