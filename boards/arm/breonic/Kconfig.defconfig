@@ -1,3 +1,4 @@
+# Copyright (c) 2023 HeeChan Kang
 # SPDX-License-Identifier: MIT
 
 if BOARD_BREONIC
@@ -19,12 +20,12 @@ config USB_DEVICE_STACK
 endif # USB
 
 config BT_CTLR
-	default BT
+    default BT
 
 config ZMK_BLE
-	default y
+    default y
 
 config ZMK_USB
-	default y
+    default y
 
 endif # BOARD_BREONIC
