@@ -7,17 +7,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    model = "breonic"
+    model = "breonic";
     compatible = "ent,breonic";
 
     chosen {
-        zephyr,code-partition = &code_partition;
         zephyr,sram = &sram0;
-        zephyr,flash = &flash0;
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
         zmk,battery = &vbatt;
-        zephyr,console = &cdc_acm_uart0;
     };
 
     aliases {
@@ -63,7 +60,7 @@
     };
 
     kscan0: kscan_0 {
-        compatible = "zmk,kscan-gpio-matrix";;
+        compatible = "zmk,kscan-gpio-matrix";
         label = "KSCAN";
         diode-direction = "col2row";
 
@@ -90,4 +87,24 @@
             , <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
+};
+
+&adc {
+    status = "okay";
+};
+
+&gpiote {
+    status = "okay";
+};
+
+&gpio0 {
+    status = "okay";
+};
+
+&gpio1 {
+    status = "okay";
+};
+
+&usbd {
+    status = "okay";
 };
