@@ -1,0 +1,3 @@
+# Breonic
+
+A handwired Bluetooth-supported keyboard inspired by Preonic (OLKB). Still a work in progress...
