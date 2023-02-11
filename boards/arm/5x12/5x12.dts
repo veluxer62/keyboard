@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 / {
-    model = "breonic";
-    compatible = "ent,breonic";
+    model = "5x12";
+    compatible = "ent,5x12";
 
     chosen {
         zephyr,code-partition = &code_partition;

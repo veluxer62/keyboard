@@ -1,13 +1,13 @@
 # Copyright (c) 2023 HeeChan Kang
 # SPDX-License-Identifier: MIT
 
-if BOARD_BREONIC
+if BOARD_5x12
 
 config BOARD
-    default "breonic"
+    default "5x12"
 
 config ZMK_KEYBOARD_NAME
-    default "Breonic"
+    default "5x12"
 
 if USB
 
@@ -28,4 +28,4 @@ config ZMK_BLE
 config ZMK_USB
     default y
 
-endif # BOARD_BREONIC
+endif # BOARD_5x12
