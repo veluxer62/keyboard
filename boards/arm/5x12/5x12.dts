@@ -40,8 +40,11 @@
     };
 
     vbatt: vbatt {
-        compatible = "zmk,battery-nrf-vddh";
+        compatible = "zmk,battery-voltage-divider";
         label = "BATTERY";
+        io-channels = <&adc 6>;
+        output-ohms = <100000>;
+        full-ohms = <(100000 + 100000)>;
     };
 
     ortho_transform: ortho_transform {
