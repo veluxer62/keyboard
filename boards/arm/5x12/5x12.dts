@@ -127,8 +127,6 @@
     /*
      * For more information, see:
      * http://docs.zephyrproject.org/latest/devices/dts/flash_partitions.html
-     * TODO: fix all of these values, these are just copied from Technikable
-     * https://github.com/petejohanson/technikable-zmk-config
      */
     partitions {
         compatible = "fixed-partitions";
