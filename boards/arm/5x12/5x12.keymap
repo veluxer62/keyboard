@@ -92,9 +92,9 @@
             // |      |      |      |      |      |      |      |      |         |        |        |        |
             // |      |      |      |      |      |      |      |      | OUT_TOG | BT_PRV | BT_NXT |        |
             bindings = <
-                &trans &trans      &trans &trans &trans &trans &trans &trans &trans         &trans       &trans       &bt BT_CLR
-                &trans &bootloader &trans &trans &trans &trans &trans &trans &trans         &kp LPAR     &kp RPAR     &trans
-                &trans &trans      &trans &trans &trans &kp N4 &trans &trans &trans         &kp LBKT     &kp RBKT     &trans
+                &trans &trans      &trans &trans &trans &trans &trans &trans &trans         &kp LPAR     &kp RPAR     &bt BT_CLR
+                &trans &bootloader &trans &trans &trans &trans &trans &trans &trans         &kp LBKT     &kp LBKT     &trans
+                &trans &trans      &trans &trans &trans &kp N4 &trans &trans &trans         &trans       &trans       &trans
                 &trans &trans      &trans &trans &trans &trans &trans &trans &trans         &trans       &trans       &trans
                 &trans &trans      &trans &trans &trans &trans &trans &trans &out OUT_TOG   &bt BT_PRV   &bt BT_NXT   &trans
                 >;
